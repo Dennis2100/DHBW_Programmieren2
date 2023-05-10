@@ -12,6 +12,7 @@ class Auto
 	std::string name;
 	int pos_xy;
 	int gefahreneKilometer;
+	int allgemeinerVerbrauch;
 
 public:
 	Auto() = default;
