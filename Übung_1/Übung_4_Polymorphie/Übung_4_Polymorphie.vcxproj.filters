@@ -21,9 +21,15 @@
     <ClCompile Include="Ort.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Sehenswürdigkeiten.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ort.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Sehenswürdigkeiten.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

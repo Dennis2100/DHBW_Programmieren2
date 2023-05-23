@@ -4,6 +4,7 @@
 int main()
 {
 	Ort* ort = new Ort("Stuttgart", 1, 2);
-
 	ort->visit(ort);
+
+
 }

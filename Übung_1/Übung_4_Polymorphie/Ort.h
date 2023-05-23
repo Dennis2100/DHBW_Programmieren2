@@ -14,6 +14,6 @@ public:
 	Ort() = default;
 	Ort(std::string name, int x, int y);
 
-	void visit(Ort *other);
+	virtual void visit(Ort *other);
 };
 
