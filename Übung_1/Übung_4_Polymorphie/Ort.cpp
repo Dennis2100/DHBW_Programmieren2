@@ -7,7 +7,7 @@ Ort::Ort(std::string name, int x, int y)
 	this->y = y;
 }
 
-void Ort::visit(Ort *other)
+void Ort::visit()
 {
-	std::cout << other->name << " " << other->x << "," << other->y;
+	std::cout << name << " " << "(" << x << "," << y << ")";
 }

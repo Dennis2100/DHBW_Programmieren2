@@ -21,7 +21,7 @@
     <ClCompile Include="Ort.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Sehenswürdigkeiten.cpp">
+    <ClCompile Include="Sehenswuerdigkeit.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="Ort.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="Sehenswürdigkeiten.h">
+    <ClInclude Include="Sehenswuerdigkeit.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

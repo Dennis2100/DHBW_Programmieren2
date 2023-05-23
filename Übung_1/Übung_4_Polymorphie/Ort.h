@@ -1,8 +1,8 @@
 #pragma once
 
 #include <string.h>
-#include <iostream>
 #include <stdio.h>
+#include <iostream>
 
 class Ort
 {
@@ -14,6 +14,6 @@ public:
 	Ort() = default;
 	Ort(std::string name, int x, int y);
 
-	virtual void visit(Ort *other);
+	virtual void visit();
 };
 

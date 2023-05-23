@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b4e0a510-f85f-44ab-bddf-69dcc30968c4}</ProjectGuid>
+    <ProjectGuid>{dd5dfe9b-96f9-4240-a18c-e01c641c14b0}</ProjectGuid>
     <RootNamespace>Übung4Polymorphie</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -128,12 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ort.cpp" />
-    <ClCompile Include="Sehenswürdigkeiten.cpp" />
+    <ClCompile Include="Sehenswuerdigkeit.cpp" />
     <ClCompile Include="Übung_4_Polymorphie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ort.h" />
-    <ClInclude Include="Sehenswürdigkeiten.h" />
+    <ClInclude Include="Sehenswuerdigkeit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
