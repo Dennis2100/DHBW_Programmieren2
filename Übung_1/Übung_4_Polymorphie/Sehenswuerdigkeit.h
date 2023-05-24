@@ -12,6 +12,7 @@ class Sehenswuerdigkeit : public Ort
 public:
 	Sehenswuerdigkeit() = default;
 	Sehenswuerdigkeit(std::string name, int x, int y, std::string sehenswuerdigkeit);
+	~Sehenswuerdigkeit();
 	
 	void visit() override;
 };

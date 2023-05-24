@@ -1,2 +1,5 @@
-﻿  Übung_3.cpp
+﻿  Person.cpp
+  Übung_3.cpp
+  Code wird generiert...
+C:\DHBW_Informationstechnik_2022\C++\Übung_1\Übung_3\Person.cpp(44): warning C4715: "Person::greeting": Nicht alle Codepfade geben einen Wert zurück.
   Übung_3.vcxproj -> C:\DHBW_Informationstechnik_2022\C++\Übung_1\x64\Debug\Übung_3.exe

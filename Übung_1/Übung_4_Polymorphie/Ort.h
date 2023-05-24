@@ -13,6 +13,7 @@ class Ort
 public:
 	Ort() = default;
 	Ort(std::string name, int x, int y);
+	~Ort();
 
 	virtual void visit();
 };

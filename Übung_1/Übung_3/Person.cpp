@@ -6,9 +6,9 @@ Person::Person(std::string name, Nationalität nationalität)
 	this->nationalität = nationalität;
 }
 
-void Person::greet(Person* other)
+void Person::greet(Person &other)
 {
-	std::cout << greeting(other) << other->getName();
+	std::cout << greeting(other) << other.getName();
 }
 
 std::string Person::getName()
@@ -21,9 +21,9 @@ Nationalität Person::getNationalität()
 	return nationalität;
 }
 
-std::string Person::greeting(Person *other)
+std::string Person::greeting(Person &other)
 {
-	switch (other->getNationalität()) 
+	switch (other.getNationalität()) 
 	{
 		case de:
 			return "Hallo, ";

@@ -5,13 +5,13 @@
 
 int main()
 {
-    Person *Dennis = new Person("Dennis", de);
-    Person *JJB = new Person("JJB", fr);
+    Person Dennis("Dennis", de);
+    Person JJB("JJB", fr);
 
-    Dennis->greet(JJB);
+    Dennis.greet(JJB);
 
     std::cout << "\n";
 
-    JJB->greet(Dennis);
+    JJB.greet(Dennis);
 }
 

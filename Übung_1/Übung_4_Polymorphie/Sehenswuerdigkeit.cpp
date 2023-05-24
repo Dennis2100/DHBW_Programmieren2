@@ -5,6 +5,10 @@ Sehenswuerdigkeit::Sehenswuerdigkeit(std::string name, int x, int y, std::string
 	this->sehenswuerdigkeit = sehenswuerdigkeit;
 }
 
+Sehenswuerdigkeit::~Sehenswuerdigkeit()
+{
+}
+
 void Sehenswuerdigkeit::visit()
 {
 	Ort::visit();

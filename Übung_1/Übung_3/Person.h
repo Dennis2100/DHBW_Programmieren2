@@ -14,9 +14,9 @@ public:
 	Person() = default;
 	Person(std::string name, Nationalität nationalität);
 
-	void greet(Person *other);
+	void greet(Person &other);
 	std::string getName();
 	Nationalität getNationalität();
-	std::string greeting(Person *other);
+	std::string greeting(Person &other);
 };
 
