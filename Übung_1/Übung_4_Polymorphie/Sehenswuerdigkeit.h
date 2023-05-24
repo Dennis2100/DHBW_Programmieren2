@@ -7,9 +7,6 @@
 
 class Sehenswuerdigkeit : public Ort
 {
-	std::string name;
-	int x;
-	int y;
 	std::string sehenswuerdigkeit;
 
 public:
