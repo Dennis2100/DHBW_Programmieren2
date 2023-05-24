@@ -4,11 +4,11 @@
 
 int main()
 {
-    Ort* ort = new Ort("Stuttgart", 1, 2);
-    ort->visit();
+    Ort ort("Stuttgart", 1, 2);
+    ort.visit();
 
     std::cout << "\n";
 
-    Sehenswuerdigkeit* sehenswuerdigkeit = new Sehenswuerdigkeit("Eifelturm", 4, 5, "Man sieht den Eifelturm.");
-    sehenswuerdigkeit->visit();
+    Sehenswuerdigkeit sehenswuerdigkeit("Eifelturm", 4, 5, "Man sieht den Eifelturm.");
+    sehenswuerdigkeit.visit();
 }
