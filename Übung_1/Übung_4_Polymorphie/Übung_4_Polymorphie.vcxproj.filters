@@ -24,12 +24,18 @@
     <ClCompile Include="Sehenswuerdigkeit.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Restaurant.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ort.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="Sehenswuerdigkeit.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Restaurant.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

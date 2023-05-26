@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ort.cpp" />
+    <ClCompile Include="Restaurant.cpp" />
     <ClCompile Include="Sehenswuerdigkeit.cpp" />
     <ClCompile Include="Übung_4_Polymorphie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ort.h" />
+    <ClInclude Include="Restaurant.h" />
     <ClInclude Include="Sehenswuerdigkeit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
